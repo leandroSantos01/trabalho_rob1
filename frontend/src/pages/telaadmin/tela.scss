@@ -1,0 +1,46 @@
+main{
+    margin-top: -50px;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        background-image: url("https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/Performance/2026-corvette-z06/page-assets/03-design/2026-z06-design-01-xs.jpg?imwidth=1920");
+        background-clip: text;
+        color: rgba(255, 255, 255, 0);
+        margin-bottom: 20px;
+        font-size: 60px;
+    }
+
+    .caixas{
+        width: 50%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .caixa_direita, .caixa_esqueda{
+            width: 45%;
+            height: 150px;
+            text-decoration: none;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #3d3d3d93;
+
+            h2{
+                margin-bottom: 20px;
+                color: white;
+            }
+
+            font-size: 30px;
+
+    }
+    
+}}
