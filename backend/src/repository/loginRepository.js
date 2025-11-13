@@ -52,8 +52,8 @@ export async function BuscarAdmin(adimin) {
     const comando = `
     select * from LOGIN_ADM
     where email = ?
-    and senha = ?
-    `
+    and senha = MD5(?)
+    `   
 
     const [info] = await connection.query(comando, [adimin.email, adimin.senha])
     return info[0]

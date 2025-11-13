@@ -59,15 +59,15 @@ listarAdmins()
             <main>
      <h1>Ola admin seja bem vindo</h1>
             <div className="caixas">           
-            <Link to={'/centralusers'} className="caixa_direita">
+            <div className="caixa_direita">
                 <h2>Usuários</h2>
                 <FaUsers size={60}/>{count}
         
-            </Link>
-            <Link  className="caixa_esqueda">
+            </div>
+            <div  className="caixa_esqueda">
                 <h2>Admins</h2>
                 <MdAdminPanelSettings  size={60}/>{totalAdmins}
-            </Link>
+            </div>
             </div>  
 
             </main>
